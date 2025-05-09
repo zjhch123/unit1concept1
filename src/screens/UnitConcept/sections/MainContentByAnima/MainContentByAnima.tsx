@@ -65,49 +65,49 @@ export const MainContentByAnima = (): JSX.Element => {
   // Featured cards data
   const featuredCards = [
     {
-      image: "/image.png",
+      image: "./image.png",
       title: "Emergency Medicine Insights Report",
       description:
         "This report delves into the latest trends in emergency medicine, examining patient flow, treatment efficacy, and resource utilization in urgent care settings.",
       isNew: true,
     },
     {
-      image: "/image-1.png",
+      image: "./image-1.png",
       title: "Emergency Care Performance Metrics",
       description:
         "This overview presents critical performance metrics in emergency care, including response times, patient satisfaction ratings, and treatment success rates.",
       isNew: false,
     },
     {
-      image: "/image-2.png",
+      image: "./image-2.png",
       title: "Trends in Emergency Medicine",
       description:
         "This analysis investigates the latest trends in emergency medicine, focusing on advancements in triage protocols and telehealth integration.",
       isNew: false,
     },
     {
-      image: "/image.png",
+      image: "./image.png",
       title: "Patient Flow Optimization",
       description:
         "A comprehensive guide to optimizing patient flow in emergency departments, reducing wait times and improving overall efficiency.",
       isNew: true,
     },
     {
-      image: "/image-1.png",
+      image: "./image-1.png",
       title: "Resource Allocation Strategies",
       description:
         "Strategic approaches to resource allocation in emergency care settings, ensuring optimal utilization of staff and equipment.",
       isNew: false,
     },
     {
-      image: "/image-2.png",
+      image: "./image-2.png",
       title: "Quality Metrics Dashboard",
       description:
         "An interactive dashboard for tracking and analyzing quality metrics in emergency medicine departments.",
       isNew: false,
     },
     {
-      image: "/image.png",
+      image: "./image.png",
       title: "Staff Training Programs",
       description:
         "Comprehensive training programs for emergency department staff, focusing on latest protocols and best practices.",
@@ -209,7 +209,7 @@ export const MainContentByAnima = (): JSX.Element => {
     {
       title: "System Quadruple Aim Scorecard",
       releaseDate: "2/14/2025",
-      image: "/image-67.png",
+      image: "./image-67.png",
       description:
         "A single balanced scorecard for standardized, system-wide performance.",
       type: "Announcement",
@@ -218,7 +218,7 @@ export const MainContentByAnima = (): JSX.Element => {
     {
       title: "System Quadruple Aim Scorecard",
       releaseDate: "2/14/2025",
-      image: "/image-67.png",
+      image: "./image-67.png",
       description:
         "A single balanced scorecard for standardized, system-wide performance.",
       type: "Announcement",
@@ -227,7 +227,7 @@ export const MainContentByAnima = (): JSX.Element => {
     {
       title: "System Quadruple Aim Scorecard",
       releaseDate: "2/14/2025",
-      image: "/image-67.png",
+      image: "./image-67.png",
       description:
         "A single balanced scorecard for standardized, system-wide performance.",
       type: "Announcement",
@@ -236,7 +236,7 @@ export const MainContentByAnima = (): JSX.Element => {
     {
       title: "System Quadruple Aim Scorecard",
       releaseDate: "2/14/2025",
-      image: "/image-67.png",
+      image: "./image-67.png",
       description:
         "A single balanced scorecard for standardized, system-wide performance.",
       type: "Announcement",
@@ -245,7 +245,7 @@ export const MainContentByAnima = (): JSX.Element => {
     {
       title: "System Quadruple Aim Scorecard",
       releaseDate: "2/14/2025",
-      image: "/image-67.png",
+      image: "./image-67.png",
       description:
         "A single balanced scorecard for standardized, system-wide performance.",
       type: "Announcement",
@@ -430,7 +430,7 @@ export const MainContentByAnima = (): JSX.Element => {
               <div className="inner-scroll-view" style={{ scrollbarWidth: 'none', overflow: 'hidden', height: `calc(100% - ${nestedScrollViewOffset}px)`, display: 'flex', flexDirection: 'column', width: '100%', alignItems: 'flex-start', gap: 12, overflowY: isColumnsSticky ? 'auto' : 'hidden' }}>
                 {recentReports.map((report, index) => (
                   <div key={index} style={{ display: 'flex', width: '100%', alignItems: 'center', gap: 16 }}>
-                    <img alt="Report thumbnail" src="/image-18.png" style={{ width: 44, height: 44, objectFit: 'cover' }} />
+                    <img alt="Report thumbnail" src="./image-18.png" style={{ width: 44, height: 44, objectFit: 'cover' }} />
                     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', gap: 4, flex: 1 }}>
                       <div style={{ fontWeight: 400, color: '#000000de', fontSize: 14, letterSpacing: 0.17, lineHeight: '20px' }}>{report.title}</div>
                       <div style={{ display: 'flex', alignItems: 'center', gap: 4 }}>
@@ -460,7 +460,7 @@ export const MainContentByAnima = (): JSX.Element => {
                     <div style={{ display: 'flex', flexWrap: 'wrap', width: 65, height: 56, alignItems: 'flex-start', gap: 4 }}>
                       {[...Array(4)].map((_, i) => (
                         <div key={i} style={{ width: 26, height: 26, border: '1px solid #dae2ec', borderRadius: 4, overflow: 'hidden' }}>
-                          <img alt="Thumbnail" src="/image-62.png" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                          <img alt="Thumbnail" src="./image-62.png" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                         </div>
                       ))}
                     </div>

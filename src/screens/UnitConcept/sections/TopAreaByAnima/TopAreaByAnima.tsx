@@ -8,7 +8,7 @@ export const TopAreaByAnima = (): JSX.Element => {
     <header className="flex h-12 items-center justify-between w-full">
       <div className="flex items-center gap-10">
         <div className="flex min-w-[150px] max-w-[423.5px] items-center gap-4">
-          <img className="w-12 h-10" alt="Logo" src="/logo.svg" />
+          <img className="w-12 h-10" alt="Logo" src="./logo.svg" />
           <h1 className="font-typography-h6 font-[number:var(--typography-h6-font-weight)] text-[#000000de] text-[length:var(--typography-h6-font-size)] tracking-[var(--typography-h6-letter-spacing)] leading-[var(--typography-h6-line-height)]">
             CARE
           </h1>
